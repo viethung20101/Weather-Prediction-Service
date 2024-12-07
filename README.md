@@ -60,6 +60,7 @@ uvicorn main:app --host 0.0.0.0 --port 8181
 
 ## Cấu trúc dự án
 
+```
 weather-prediction-service/
 ├── main.py # FastAPI application
 ├── handle.py # Model handling logic
@@ -69,6 +70,7 @@ weather-prediction-service/
 ├── data/ # Data directory
 │ └── weather.csv # Training data
 └── models/ # Trained models directory
+```
 
 ## API Endpoints
 
@@ -161,7 +163,3 @@ Sau khi chạy ứng dụng, truy cập:
 3. Commit changes
 4. Push to branch
 5. Tạo Pull Request
-
-## License
-
-[MIT License](LICENSE)
